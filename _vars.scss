@@ -1,0 +1,18 @@
+/*текстовые стили*/
+$M400: "Montserrat_400", sans-serif;
+$M500: "Montserrat_500", sans-serif;
+$M600: "Montserrat_600", sans-serif;
+$M700: "Montserrat_700", sans-serif;
+
+/*масштаб изображения продукта в карзине*/
+$zoomImgBasket: scale(1.3);
+
+/*Оформление кнопок корзины*/
+$basketButtomBox: order-box; /*box-sizing*/
+$basketButtomBorder: 1px solid rgb(0, 0, 0);
+$basketButtomBorderRadius: 50px;
+$basketButtomWidht: 200px;
+$basketButtomHeight: 38px;
+
+/*Отступы*/
+$mgnBasketProductAbdForm: 64px;

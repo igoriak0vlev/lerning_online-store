@@ -1,0 +1,164 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    line-height: 0;
+    padding-top: 49px;
+    padding-bottom: 17px;
+    border-bottom: none;
+    &_input {
+      display: none;
+    }
+    &_logo {
+      padding: 0;
+    }
+  }
+  .menu {
+    align-items: center;
+    &_link {
+      display: none;
+      &_mobil {
+        display: block;
+      }
+      &_catalog {
+        font-size: 14px;
+      }
+      &_catalog:not(:last-child)::after {
+        content: "/";
+        padding: 10px;
+        font-size: 14px;
+      }
+    }
+  }
+  .heading {
+    &_title {
+      font-size: 48px;
+      line-height: 59px;
+      text-align: center;
+      margin-top: 29px;
+    }
+    &_text {
+      font-size: 16px;
+      line-height: 32px;
+      text-align: center;
+    }
+    &_link {
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+    }
+    &_for {
+      font-size: 24px;
+      line-height: 29px;
+      text-align: left;
+      margin-top: 32px;
+    }
+  }
+  .for {
+    margin-top: 32px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    &_item {
+      grid-column: span 4;
+      height: 394px;
+      font-size: 28px;
+      line-height: 34px;
+      &_big {
+        grid-column: span 4;
+        height: 244px;
+      }
+    }
+  }
+  .product {
+    &_heading {
+      font-size: 24px;
+      line-height: 29px;
+      margin-top: 32px;
+    }
+    &_name {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 8px;
+    }
+    &_text {
+      margin-bottom: 8px;
+    }
+    &_price {
+      font-size: 18px;
+      line-height: 22px;
+      &_new {
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+    &_mobil_text {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+  .products_box_style {
+    row-gap: 32px;
+  }
+  .link_style {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .link_text_mobil {
+    font-size: 14px;
+    line-height: 210%;
+  }
+  .nav_select {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .select {
+    width: 288px;
+    &_sorting {
+      font-size: 14px;
+      line-height: 17px;
+      padding: 11px 5px 13px 19px;
+    }
+  }
+  .basket {
+    grid-template-columns: repeat(4, 1fr);
+    &_label {
+      display: none;
+    }
+    &_products {
+      grid-column: span 4;
+    }
+    &_product {
+      margin-top: 32px;
+      padding-bottom: 0;
+    }
+    &_form {
+      grid-column: span 4;
+      min-width: 343px;
+      margin-top: 48px;
+      &_text {
+        font-size: 24px;
+        line-height: 29px;
+      }
+      &_input {
+        width: calc(100% - 24px - 28px);
+      }
+    }
+    &_img {
+      display: none;
+    }
+    &_nav {
+      margin-top: 32px;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+
+  .footer {
+    padding-bottom: 32px;
+    &_form {
+      margin-top: 70px;
+    }
+  }
+}

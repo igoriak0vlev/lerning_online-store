@@ -1,0 +1,23 @@
+{
+  "folders": [
+	{
+		"path": "../Програмирование/2-n course/webdev-cw-instapro/webdev-cw-instapro"
+	},
+	{
+		"path": "../Програмирование/Preax/57af88b0-2ae"
+	},
+	{
+		"path": "../Програмирование/site"
+	},
+	{
+		"name": "card_game",
+		"path": "../Програмирование/3-n course/card_game"
+	},
+	{
+		"path": "../Програмирование/2-n course/webdev-dom-homework"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "card_game"
+  }
+}
